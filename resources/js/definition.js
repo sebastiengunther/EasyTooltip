@@ -166,7 +166,8 @@ define([], function () {
 								defaultValue: "center"
 							}
 						}
-					},tooltip: {
+					},
+					tooltip: {
 						type: "items",
 						label: "Easy Tooltip : Tooltip",
 						items: {
@@ -265,6 +266,16 @@ define([], function () {
 								defaultValue: "center"
 							}
 						}
+					}
+				}
+			},
+			aboutPanel: {
+				translation:"Common.About",
+				type:"items",
+				items: {
+					about: {
+						component: "EasyAbout",
+						translation: "Common.About"
 					}
 				}
 			}
