@@ -27,7 +27,8 @@ define([], function () {
 			tooltipPosition: "top",
 			horizontalTooltipPosition: "center",
 			fontSize: "14px",
-			tooltipFontSize: "14px"
+			tooltipFontSize: "14px",
+			tooltipWidth: "300px"
 		}
 	};
 });

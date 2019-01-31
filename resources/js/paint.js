@@ -60,6 +60,9 @@ function(css, html) {
 		if(layout.eTooltip.border == true) {
 			div.css('border', `solid 1px ${layout.eTooltip.borderColor.color}`);
 		}
+		if(layout.eTooltip.tooltipWidth != '') {
+			span.css('max-width', layout.eTooltip.tooltipWidth);
+		}
 		div.css({
 			'cursor': layout.eTooltip.cursor,
 			'background-color': layout.eTooltip.backgroundColor.color,
