@@ -3,11 +3,11 @@ article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip .qv-object-nav.inline {
 	display: none;
 }
 
-article:not(.qv-object-EasyTooltip):not(.qv-object-EasyTableTooltip) {
+article {
     z-index: 2;
 }
 
-article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip {
+article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip span.eTooltip-span {
     z-index: 3;
 }
 
