@@ -55,7 +55,6 @@ function(css, html) {
 		}
 		
 		div.append(divText);
-		div.append(span);
 		
 		if(layout.eTooltip.border == true) {
 			div.css('border', `solid 1px ${layout.eTooltip.borderColor.color}`);
@@ -83,6 +82,7 @@ function(css, html) {
 		span.addClass('eTooltip-span-' + layout.eTooltip.tooltipPosition);
 	
 		element.html('');
+		element.append(span);
 		element.append(div);
 		style.html(object.css);
 	
