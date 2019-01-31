@@ -3,12 +3,22 @@ article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip .qv-object-nav.inline {
 	display: none;
 }
 
-article {
+
+
+article:not(.qv-object-EasyTooltip):not(.qv-object-EasyTableTooltip) {
     z-index: 2;
 }
 
-article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip span.eTooltip-span {
+article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip {
     z-index: 3;
+}
+
+article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip span.eTooltip-span {
+	z-index: 4;
+}
+
+article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip div.eTooltip-div-text {
+	z-index: 5;
 }
 
 article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip .eTooltip-div {

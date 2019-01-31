@@ -65,11 +65,11 @@ function(css, html) {
 		}
 		div.css({
 			'cursor': layout.eTooltip.cursor,
-			'background-color': layout.eTooltip.backgroundColor.color,
-			'color': layout.eTooltip.textColor.color,
 			'text-align': layout.eTooltip.horizontalPosition
 		});
 		divText.css({
+			'background-color': layout.eTooltip.backgroundColor.color,
+			'color': layout.eTooltip.textColor.color,
 			'vertical-align': layout.eTooltip.verticalPosition,
 			'font-size': layout.eTooltip.fontSize
 		});
