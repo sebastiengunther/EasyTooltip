@@ -9,10 +9,6 @@ article {
     z-index: 2;
 }
 
-article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip:hover {
-    z-index: 3;
-}
-
 
 article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip .eTooltip-div {
 	width: calc(100% - 2px);

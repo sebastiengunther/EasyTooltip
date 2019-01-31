@@ -90,6 +90,7 @@ function(css, html) {
 			let left = 0;
 			let top = 0;
 			
+			object.article.css('z-index', 3);
 			span.show();
 			
 			if(layout.eTooltip.tooltipPosition == 'left'){
@@ -118,6 +119,8 @@ function(css, html) {
 		});
 		div.mouseout(function() {
 			span.hide();
+			object.article.css('z-index', 2);
+			
 		});
 		
 		return object;										// Pour finir on retourne l'objet
