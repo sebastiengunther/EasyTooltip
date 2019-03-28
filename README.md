@@ -28,7 +28,7 @@ This extension is developped by [EasyNeo](https://www.easyneo.fr/).
 1. First of all, download the extension and import it.
   <br/>
 
-2. Next, open the application and sheet on which you want to use [EasyTooltip](https://github.com/sebastiengunther/EasyTooltip/).
+2. Open the application and sheet on which you want to use [EasyTooltip](https://github.com/sebastiengunther/EasyTooltip/).
   <br/>
 
 3. Then, edit the extension object and add the __first measure__.
@@ -82,12 +82,12 @@ This extension is developped by [EasyNeo](https://www.easyneo.fr/).
 
       * `Alignement` (select)
         * It's the alignement of the text in the object
-        * __Left__ : the text will be left align
-        * __Center__ : the text will be center align
-        * __Right__ : the text will be right align
+        * __Left__ : the text will be left aligned
+        * __Center__ : the text will be center aligned
+        * __Right__ : the text will be right aligned
         <br/>
 
-4. After, add the __second measure__.
+4. Then, add the __second measure__.
     > Note that the second measure is the text in the __tooltip__
     * `Expression` (string, can be an expression)
       * It's the text who's display in the tooltip
