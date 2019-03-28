@@ -28,7 +28,7 @@ This extension is developped by [EasyNeo](https://www.easyneo.fr/).
 1. First of all, download the extension and import it.
   <br/>
 
-2. Next, open the application and sheet on which you want to use EasyTooltip.
+2. Next, open the application and sheet on which you want to use [EasyTooltip](https://github.com/sebastiengunther/EasyTooltip/).
   <br/>
 
 3. Then, edit the extension object and add the __first measure__.
@@ -133,7 +133,7 @@ This extension is developped by [EasyNeo](https://www.easyneo.fr/).
           > Note that if the `Width` is too small for the text, then the text will go on the line
         <br/>
 
-5. Finally, you can quit the edit mode and put your mouse on the EasyTooltip to see the tooltip.
+5. Finally, you can quit the edit mode and put your mouse on the [EasyTooltip](https://github.com/sebastiengunther/EasyTooltip/) object to see the tooltip.
 
 
 <br/>
