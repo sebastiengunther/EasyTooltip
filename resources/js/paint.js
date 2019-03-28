@@ -41,7 +41,7 @@ function(css, html) {
 		if(layout.eTooltip.type == 'image'){
 			let img = $('<div>');
 			divText.append(img);
-			img.addClass(layout.eTooltip.horizontalPosition + '-' + layout.eTooltip.verticalPosition);
+			img.addClass(layout.eTooltip.alignement + '-' + layout.eTooltip.verticalPosition);
 			object.css = object.css.split('%%_IMAGE_%%').join(text);
 		}
 		else {
@@ -55,7 +55,7 @@ function(css, html) {
 		}
 		div.css({
 			'cursor': layout.eTooltip.cursor,
-			'text-align': layout.eTooltip.horizontalPosition
+			'text-align': layout.eTooltip.alignement
 		});
 		divText.css({
 			'background-color': layout.eTooltip.backgroundColor.color,
@@ -83,7 +83,7 @@ function(css, html) {
 			span.css({
 				'background-color': layout.eTooltip.tooltipBackgroundColor.color,
 				'color': layout.eTooltip.tooltipTextColor.color,
-				'text-align': layout.eTooltip.horizontalTooltipPosition,
+				'text-align': layout.eTooltip.tooltipAlignement,
 				'font-size': layout.eTooltip.tooltipFontSize,
 			});
 			

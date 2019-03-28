@@ -144,11 +144,11 @@ define([], function () {
 								],
 								defaultValue: "middle"
 							},
-							horizontalPosition: {
+							alignement: {
 								type: "string",
 								component: "dropdown",
-								label: "Horizontal position",
-								ref: "eTooltip.horizontalPosition",
+								label: "Alignement",
+								ref: "eTooltip.alignement",
 								options: [
 									{
 										value: "left",
@@ -244,11 +244,11 @@ define([], function () {
 								],
 								defaultValue: "top"
 							},
-							horizontalTooltipPosition: {
+							tooltipAlignement: {
 								type: "string",
 								component: "dropdown",
-								label: "Horizontal tooltip position",
-								ref: "eTooltip.horizontalTooltipPosition",
+								label: "Tooltip alignement",
+								ref: "eTooltip.tooltipAlignement",
 								options: [
 									{
 										value: "left",
