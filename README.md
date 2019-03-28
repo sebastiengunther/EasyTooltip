@@ -34,7 +34,7 @@ This extension is developped by [EasyNeo](https://www.easyneo.fr/).
 3. Then, edit the extension object and add the __first measure__.
     > Note that the first measure is the text in the __object__
     * `Expression` (string, can be an expression)
-      * It's the text who's display in the object
+      * It's the text which is displayed in the object
       <br/>
 
     * You can edit appearance in the tab __appearance__, in __Easy Tooltip : Text__
@@ -46,7 +46,7 @@ This extension is developped by [EasyNeo](https://www.easyneo.fr/).
         <br/>
 
       * `Text color` (color, only if `Type` is a text)
-        * It's the color of the text displays in the object
+        * It's the color of the text displayed in the object
         <br/>
 
       * `Text font size` (string, can be an expression, only if `Type` is a text)
@@ -54,7 +54,7 @@ This extension is developped by [EasyNeo](https://www.easyneo.fr/).
         <br/>
       
       * `Border` (checkbox)
-        * If it's checked, it add a border to the object
+        * If it's checked, it adds a border to the object
         <br/>
       
       * `Border color` (color, only if `Border` is checked)
@@ -123,9 +123,9 @@ This extension is developped by [EasyNeo](https://www.easyneo.fr/).
 
       * `Tooltip alignement` (select)
         * It's the alignement of the text in the tooltip
-        * __Left__ : the text will be left align
-        * __Center__ : the text will be center align
-        * __Right__ : the text will be right align
+        * __Left__ : the text will be left aligned
+        * __Center__ : the text will be center aligned
+        * __Right__ : the text will be right aligned
         <br/>
 
       * `Tooltip width` (string, can be an expression)
