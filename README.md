@@ -40,7 +40,7 @@ This extension is developped by [EasyNeo](https://www.easyneo.fr/).
     * You can edit appearance in the tab __appearance__, in __Easy Tooltip : Text__
       
       * `Type` (select)
-        * It's the type of the tooltip
+        * It's the type of the text
         * __Text__ : the text `Expression` is interpreted as HTML
         * __Image__ : the text `Expression` is interpreted as an image URL
         <br/>
@@ -97,8 +97,8 @@ This extension is developped by [EasyNeo](https://www.easyneo.fr/).
 
       * `Tooltip Type` (select)
         * It's the type of the tooltip
-        * __Text__ : the `Tooltip` is interpreted as HTML
-        * __Image__ : the `Tooltip` is interpreted as an image URL
+        * __Text__ : the tooltip `Expression` is interpreted as HTML
+        * __Image__ : the tooltip `Expression` is interpreted as an image URL
         <br/>
 
       * `Tooltip text color` (color, only if `Tooltip type` is a text)
