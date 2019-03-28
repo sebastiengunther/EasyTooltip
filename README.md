@@ -62,7 +62,7 @@ This extension is developped by [EasyNeo](https://www.easyneo.fr/).
         <br/>
       
       * `Cursor` (select)
-        * It's the cursor shape
+        * It's the cursor shape when you put your mouse on the object
         * __Pointer__ : ![pointer](https://developer.mozilla.org/@api/deki/files/3449/=pointer.gif)
         * __Default__ : ![default](https://developer.mozilla.org/@api/deki/files/3438/=default.gif)
         * __Help__ : ![help](https://developer.mozilla.org/@api/deki/files/3442/=help.gif)
