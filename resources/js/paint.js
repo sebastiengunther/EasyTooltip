@@ -95,24 +95,24 @@ function(css, html) {
 				let left = 0;
 				let top = 0;
 				
-				object.article.css('z-index', 3);
+				object.article.css('z-index', 8);
 				span.show();
 				
 				if(layout.eTooltip.tooltipPosition == 'left'){
 					left = div.offset().left - span.width() - 30;
-					top = e.pageY - (span.height() / 2);
+					top = div.offset().top + (div.height() / 2) - (span.height() / 2); // e.pageY - (span.height() / 2);
 				}
 				else if(layout.eTooltip.tooltipPosition == 'top'){
-					left = e.pageX - (span.width() / 2);
+					left = div.offset().left + (div.width() / 2) - (span.width() / 2); // e.pageX - (span.width() / 2);
 					top = div.offset().top - span.height() - 20;
 				}
 				
 				else if(layout.eTooltip.tooltipPosition == 'right'){
 					left = div.offset().left + div.width() + 15;
-					top = e.pageY - (span.height() / 2);
+					top = div.offset().top + (div.height() / 2) - (span.height() / 2); // e.pageY - (span.height() / 2);
 				}
 				else if(layout.eTooltip.tooltipPosition == 'bottom'){
-					left = e.pageX - (span.width() / 2);
+					left = div.offset().left + (div.width() / 2) - (span.width() / 2); // e.pageX - (span.width() / 2);
 					top = div.offset().top + div.height() + 20;
 				}
 				
