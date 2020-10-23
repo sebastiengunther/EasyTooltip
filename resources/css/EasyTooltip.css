@@ -24,7 +24,8 @@ article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip .eTooltip-div {
 article#%%_ARTICLE_ID_%%.qv-object-EasyTooltip .eTooltip-div-text {
 	display: table-cell;
 	overflow: hidden;
-    text-overflow: ellipsis;
+    	text-overflow: ellipsis;
+	height: 100%;
 	width: 100%;
 	padding: 4px 8px;
 }
